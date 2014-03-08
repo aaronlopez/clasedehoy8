@@ -22,6 +22,13 @@
 		590E272218CB1664000F8684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590E270118CB1664000F8684 /* UIKit.framework */; };
 		590E272A18CB1664000F8684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 590E272818CB1664000F8684 /* InfoPlist.strings */; };
 		590E272C18CB1664000F8684 /* ClaseDeHoyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 590E272B18CB1664000F8684 /* ClaseDeHoyTests.m */; };
+		590E273718CB182B000F8684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590E273618CB182B000F8684 /* ViewController.m */; };
+		590E273918CB1B14000F8684 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590E273818CB1B14000F8684 /* MapKit.framework */; };
+		590E273B18CB1B21000F8684 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590E273A18CB1B21000F8684 /* CoreLocation.framework */; };
+		590E274018CB1FDF000F8684 /* descarga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 590E273F18CB1FDF000F8684 /* descarga.jpeg */; };
+		590E274318CB20A2000F8684 /* descarga@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 590E274218CB20A2000F8684 /* descarga@2x.jpeg */; };
+		590E274418CB2147000F8684 /* NuevoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 590E273D18CB1F67000F8684 /* NuevoVC.m */; };
+		590E274718CB272F000F8684 /* TablaKiKeWC.m in Sources */ = {isa = PBXBuildFile; fileRef = 590E274618CB272F000F8684 /* TablaKiKeWC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +63,16 @@
 		590E272718CB1664000F8684 /* ClaseDeHoyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClaseDeHoyTests-Info.plist"; sourceTree = "<group>"; };
 		590E272918CB1664000F8684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		590E272B18CB1664000F8684 /* ClaseDeHoyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClaseDeHoyTests.m; sourceTree = "<group>"; };
+		590E273518CB182B000F8684 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		590E273618CB182B000F8684 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		590E273818CB1B14000F8684 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		590E273A18CB1B21000F8684 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		590E273C18CB1F67000F8684 /* NuevoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoVC.h; sourceTree = "<group>"; };
+		590E273D18CB1F67000F8684 /* NuevoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoVC.m; sourceTree = "<group>"; };
+		590E273F18CB1FDF000F8684 /* descarga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = descarga.jpeg; sourceTree = "<group>"; };
+		590E274218CB20A2000F8684 /* descarga@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "descarga@2x.jpeg"; sourceTree = "<group>"; };
+		590E274518CB272F000F8684 /* TablaKiKeWC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaKiKeWC.h; sourceTree = "<group>"; };
+		590E274618CB272F000F8684 /* TablaKiKeWC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaKiKeWC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				590E273B18CB1B21000F8684 /* CoreLocation.framework in Frameworks */,
+				590E273918CB1B14000F8684 /* MapKit.framework in Frameworks */,
 				590E270018CB1664000F8684 /* CoreGraphics.framework in Frameworks */,
 				590E270218CB1664000F8684 /* UIKit.framework in Frameworks */,
 				590E26FE18CB1664000F8684 /* Foundation.framework in Frameworks */,
@@ -104,6 +123,8 @@
 		590E26FC18CB1664000F8684 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				590E273A18CB1B21000F8684 /* CoreLocation.framework */,
+				590E273818CB1B14000F8684 /* MapKit.framework */,
 				590E26FD18CB1664000F8684 /* Foundation.framework */,
 				590E26FF18CB1664000F8684 /* CoreGraphics.framework */,
 				590E270118CB1664000F8684 /* UIKit.framework */,
@@ -118,6 +139,12 @@
 				590E270C18CB1664000F8684 /* AppDelegate.h */,
 				590E270D18CB1664000F8684 /* AppDelegate.m */,
 				590E270F18CB1664000F8684 /* Main.storyboard */,
+				590E274518CB272F000F8684 /* TablaKiKeWC.h */,
+				590E274618CB272F000F8684 /* TablaKiKeWC.m */,
+				590E273C18CB1F67000F8684 /* NuevoVC.h */,
+				590E273D18CB1F67000F8684 /* NuevoVC.m */,
+				590E273518CB182B000F8684 /* ViewController.h */,
+				590E273618CB182B000F8684 /* ViewController.m */,
 				590E271218CB1664000F8684 /* MasterViewController.h */,
 				590E271318CB1664000F8684 /* MasterViewController.m */,
 				590E271518CB1664000F8684 /* DetailViewController.h */,
@@ -131,6 +158,7 @@
 		590E270418CB1664000F8684 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				590E274118CB2047000F8684 /* Imagenes */,
 				590E270518CB1664000F8684 /* ClaseDeHoy-Info.plist */,
 				590E270618CB1664000F8684 /* InfoPlist.strings */,
 				590E270918CB1664000F8684 /* main.m */,
@@ -155,6 +183,15 @@
 				590E272818CB1664000F8684 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		590E274118CB2047000F8684 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				590E274218CB20A2000F8684 /* descarga@2x.jpeg */,
+				590E273F18CB1FDF000F8684 /* descarga.jpeg */,
+			);
+			name = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				590E271918CB1664000F8684 /* Images.xcassets in Resources */,
+				590E274318CB20A2000F8684 /* descarga@2x.jpeg in Resources */,
 				590E270818CB1664000F8684 /* InfoPlist.strings in Resources */,
 				590E271118CB1664000F8684 /* Main.storyboard in Resources */,
+				590E274018CB1FDF000F8684 /* descarga.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +295,11 @@
 			files = (
 				590E270E18CB1664000F8684 /* AppDelegate.m in Sources */,
 				590E271418CB1664000F8684 /* MasterViewController.m in Sources */,
+				590E274718CB272F000F8684 /* TablaKiKeWC.m in Sources */,
 				590E270A18CB1664000F8684 /* main.m in Sources */,
 				590E271718CB1664000F8684 /* DetailViewController.m in Sources */,
+				590E274418CB2147000F8684 /* NuevoVC.m in Sources */,
+				590E273718CB182B000F8684 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

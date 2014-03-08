@@ -10,6 +10,8 @@
 
 #import "DetailViewController.h"
 
+#import "NuevoVC.h"
+
 @interface MasterViewController () {
     NSMutableArray *_objects;
 }
@@ -103,11 +105,21 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+    if ([[segue identifier] isEqualToString:@"jose"]) {
+        
+        NuevoVC * nuevoleticia =
+        [segue destinationViewController];
+        nuevoleticia.etiqueta.text = @"valor";
     }
 }
+
+
+
+
+
+
+
+
+
 
 @end
